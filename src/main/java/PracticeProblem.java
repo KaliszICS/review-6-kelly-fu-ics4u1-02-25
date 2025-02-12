@@ -34,18 +34,29 @@ public class PracticeProblem {
 		return combinedLength;
 	}
 
-	public static int isEven(int num7){
-		int isEven;
+	public static boolean isEven(int num7){
+		boolean isEven;
 		isEven = (num7 % 2 == 0);
-		return num7;
+		return isEven;
 	}
 
-	public static int isOdd(int num8){
-		int isOdd;
+	public static boolean isOdd(int num8){
+		boolean isOdd;
 		isOdd = (num8 % 2 != 0 );
-		return num8;
+		return isOdd;
 	}
 
+	public static boolean isPositive(int num9){
+		boolean isPositive;
+		isPositive = num9 > 0;
+		return isPositive;
+	}
+
+	public static boolean isNegative(int num10){
+		boolean isNegative;
+		isNegative = num10 < 0;
+		return isNegative;
+	}
 
 	
 }
